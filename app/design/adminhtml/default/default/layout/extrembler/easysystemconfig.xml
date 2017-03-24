@@ -8,6 +8,9 @@
 -->
 <layout version="1.0.0">
 	<default>
+		<reference name="head">
+			<action method="addCss" ifconfig="easysystemconfig/easysystemconfig/is_enable"><stylesheet>extrembler/easysystemconfig/style.css</stylesheet></action>
+		</reference>
 		<reference name="content">
 			<block type='easysystemconfig/adminhtml_easyconfig' name="easy.system.config" as="easy.system.config" before="-">
 				<action method="setTemplate" ifconfig="easysystemconfig/easysystemconfig/is_enable">
