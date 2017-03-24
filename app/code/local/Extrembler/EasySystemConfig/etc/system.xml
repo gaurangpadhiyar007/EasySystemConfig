@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category Extrembler
+* @package Extrembler_EasySystemConfig
+* @author  Extrembler <gaurangpadhiyar1993@gmail.com>
+*/
+-->
+<config>
+    <tabs>
+        <extrembler translate="label">
+            <label>Extrembler</label>
+            <sort_order>100</sort_order>
+        </extrembler>
+    </tabs>
+    <sections>
+        <easysystemconfig>
+            <label>Easy System Configuration Shortcut</label>
+            <tab>extrembler</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>40</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <easysystemconfig translate="label">
+                	<label>Easy System Configuration Shortcut</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <is_enable translate="label">
+                            <label>Enable Shortcut for System Configuration</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </is_enable>
+                	</fields>
+                </easysystemconfig>
+            </groups>
+        </easysystemconfig>
+    </sections>
+</config>

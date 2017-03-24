@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<!--
+/**
+* @category Extrembler
+* @package Extrembler_EasySystemConfig
+* @author  Extrembler <gaurangpadhiyar1993@gmail.com>
+*/
+-->
+<config>
+	<modules>
+		<Extrembler_EasySystemConfig>
+			<version>0.1.1</version>
+		</Extrembler_EasySystemConfig>
+	</modules>
+	<global> 
+        <helpers>
+            <easysystemconfig>
+                <class>Extrembler_EasySystemConfig_Helper</class>
+            </easysystemconfig>
+        </helpers>
+        <blocks>
+            <easysystemconfig>
+                <class>Extrembler_EasySystemConfig_Block</class>
+            </easysystemconfig>
+        </blocks>
+    </global>
+    <admin>
+        <routers>
+            <easysystemconfig>
+                <use>admin</use>
+                <args>
+                    <module>Extrembler_EasySystemConfig</module>
+                    <frontName>easysystemconfig</frontName>
+                </args>
+            </easysystemconfig>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <easysystemconfig>
+                    <file>extrembler/easysystemconfig.xml</file>
+                </easysystemconfig>
+            </updates>
+        </layout>
+    </adminhtml>
+    <default>
+        <extrembler>
+            <easysystemconfig>
+                <is_enable>1</is_enable>
+            </easysystemconfig>
+        </extrembler>
+    </default>
+</config>

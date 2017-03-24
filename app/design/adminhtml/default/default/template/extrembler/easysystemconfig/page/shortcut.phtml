@@ -1,0 +1,57 @@
+<?php
+/**
+* @category Extrembler
+* @package Extrembler_EasySystemConfig
+* @author  Extrembler <gaurangpadhiyar1993@gmail.com>
+*/
+?>
+<div class="system-config-shortcut-outer">
+	<div class="system-config-shortcut">
+		<div class="system-config-shortcut-s">
+			<a href="<?php echo $this->systemConfigurationUrl(); ?>">
+				<span>
+					<?php echo $this->__("Go to System Configuration"); ?>
+				</span>
+			</a>
+			<div class="clear"></div>
+			<a href="<?php echo $this->reindexUrl(); ?>">
+				<span>
+					<?php echo $this->__("Go to Index Management"); ?>
+				</span>
+			</a>
+		</div>
+		<div class="clear"></div>
+		<div class="cache-cleaner">
+			<a href="javascript:void(0);">
+				<span>
+					<?php echo $this->__('Cache Management'); ?>
+				</span>
+			</a>
+			<div class="cache-cleaner-inner">
+				<a href="<?php echo $this->flushSystemUrlCacheClean(); ?>">
+					<span>
+						<?php echo Mage::helper('adminhtml')->__('Flush Magento Cache') ?>
+					</span>
+				</a>
+				<div class="clear"></div>
+				<a href="<?php echo $this->catalogImageCacheClean(); ?>">
+					<span>
+						<?php echo Mage::helper('adminhtml')->__('Flush Catalog Images Cache') ?>
+					</span>
+				</a>
+				<div class="clear"></div>
+				<a href="<?php echo $this->cleanSwatchesCacheClean(); ?>">
+					<span>
+						<?php echo Mage::helper('adminhtml')->__('Flush Swatch Images Cache') ?>
+					</span>
+				</a>
+				<div class="clear"></div>
+				<a href="<?php echo $this->cleanMediaCacheClean(); ?>">
+					<span>
+						<?php echo Mage::helper('adminhtml')->__('Flush JavaScript/CSS Cache') ?>
+					</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

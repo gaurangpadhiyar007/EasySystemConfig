@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<!--
+/**
+* @category Extrembler
+* @package Extrembler_EasySystemConfig
+* @author  Extrembler <gaurangpadhiyar1993@gmail.com>
+*/
+-->
+<layout version="1.0.0">
+	<default>
+		<reference name="content">
+			<block type='easysystemconfig/adminhtml_easyconfig' name="easy.system.config" as="easy.system.config" before="-">
+				<action method="setTemplate" ifconfig="easysystemconfig/easysystemconfig/is_enable">
+			    	<template>extrembler/easysystemconfig/page/shortcut.phtml</template>
+				</action>
+			</block>
+		</reference>
+	</default>
+</layout>

@@ -1,0 +1,44 @@
+/**
+* @category Extrembler
+* @package  Extrembler_EasySystemConfig
+* @author   Extrembler <maulikpanchal5792@gmail.com>
+*/
+.system-config-shortcut{
+	display: block; 
+}
+.system-config-shortcut a{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.system-config-shortcut a:hover{
+	color: #3CBE9C;
+}
+.system-config-shortcut-outer{
+	background: #284650 none repeat scroll 0 0;
+	border: 1px dashed #000;
+	border-radius: 10px;
+	bottom: 10px;
+	box-shadow: 5px 5px 0 #aaa;
+	display: block;
+	height: auto;
+	padding: 20px 30px;
+	position: fixed;
+	right: 10px;
+	text-align: center;
+	z-index: 99;
+}
+.cache-cleaner{
+	height: 10px;
+}
+.cache-cleaner:hover .cache-cleaner-inner{
+	display: block;
+}
+.cache-cleaner-inner{
+	display: none;
+	background-color: #284650;
+	padding: 0px;
+	position: relative;	
+	top: -69px;
+	z-index: 99999;
+}

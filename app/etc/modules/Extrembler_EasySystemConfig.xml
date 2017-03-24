@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Extrembler_EasySystemConfig>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Extrembler_EasySystemConfig>
+    </modules>
+</config>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category Extrembler
+* @package Extrembler_EasySystemConfig
+* @author  Extrembler <gaurangpadhiyar1993@gmail.com>
+*/
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <extrembler translate="title">
+                        <title>Extrembler</title>
+                        <sort_order>100</sort_order>
+                    </extrembler>
+                </children>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <easysystemconfig translate="title">
+                                        <title>Easy System Configuration Shortcut</title>
+                                    </easysystemconfig>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
