@@ -6,14 +6,6 @@
 */
 class Extrembler_EasySystemConfig_Block_Adminhtml_Easyconfig extends Mage_Adminhtml_Block_Template
 {
-    /**
-    * Prepare Layout
-    */
-    protected function _prepareLayout()
-    {
-        $this->getLayout()->getBlock('head')->addCss('extrembler/easysystemconfig/style.css');
-    }
-
 	/**
 	* System Configuration Url
 	* @return url
