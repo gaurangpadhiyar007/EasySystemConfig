@@ -4,6 +4,9 @@
         <Extrembler_EasySystemConfig>
             <active>true</active>
             <codePool>local</codePool>
+            <depends>
+	            <Extrembler_Base />
+	        </depends>
         </Extrembler_EasySystemConfig>
     </modules>
 </config>
