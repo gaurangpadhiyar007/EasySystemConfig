@@ -1,5 +1,5 @@
 # EasySystemConfig
-Magento Easy System Confiuration Shortcut
+Magento Easy System Configuration Shortcut
 <p>
 	Admin Shortcuts allow admin to navigate easily to frequently used admin paths. Single click to clean cache.
 </p>
